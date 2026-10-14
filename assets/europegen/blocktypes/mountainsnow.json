@@ -1,0 +1,17 @@
+{
+  "code": "mountainsnow",
+  "class": "EuropeMountainSnow",
+  "shape": {"base": "game:block/basic/cube"},
+  "blockmaterial": "Snow",
+  "drawtype": "cube",
+  "textures": {"all": {"base": "game:block/liquid/snow/normal1"}},
+  "attributes": {"snowballableDecrementedBlockCode": "game:snowlayer-7"},
+  "behaviors": [{"name":"UnstableFalling","properties":{"impactDamageMul":0,"fallSideways":false,"dustIntensity":0.75}}],
+  "vertexFlags": {"lowContrast":true},
+  "replaceable": 990,
+  "resistance": 3.5,
+  "collisionbox": {"x1":0,"y1":0,"z1":0,"x2":1,"y2":0.875,"z2":1},
+  "sounds": {"walk":"game:walk/deepsnow","place":"game:block/snow","break":"game:block/snow","hit":"game:block/snow"},
+  "drops": [{"type":"block","code":"game:snowblock","quantity":{"avg":1,"var":0}}],
+  "materialDensity": 200
+}

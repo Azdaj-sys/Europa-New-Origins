@@ -1,0 +1,9 @@
+[
+  {"Name":"Europa umiarkowana","West":-180,"South":-90,"East":180,"North":90,"Temperature":11,"Rain":180,"Forest":155,"Shrubs":90},
+  {"Name":"Śródziemnomorski","West":-12,"South":32,"East":42,"North":44.5,"Temperature":18,"Rain":95,"Forest":65,"Shrubs":80},
+  {"Name":"Wnętrze Iberii","West":-8,"South":36,"East":-2,"North":42,"Temperature":18,"Rain":80,"Forest":45,"Shrubs":50},
+  {"Name":"Step wschodni","West":28,"South":43,"East":50,"North":50.5,"Temperature":13,"Rain":105,"Forest":35,"Shrubs":55},
+  {"Name":"Lasy północne","West":-15,"South":57,"East":50,"North":66,"Temperature":4,"Rain":160,"Forest":190,"Shrubs":85},
+  {"Name":"Północ chłodna","West":-30,"South":66,"East":60,"North":90,"Temperature":-4,"Rain":120,"Forest":55,"Shrubs":45},
+  {"Name":"Pustynny fragment Afryki","West":-17,"South":20,"East":35,"North":32,"Temperature":29,"Rain":18,"Forest":0,"Shrubs":3}
+]

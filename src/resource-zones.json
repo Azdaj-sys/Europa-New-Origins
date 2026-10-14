@@ -1,0 +1,23 @@
+[
+  {"Name":"Żelazo Skandynawii","West":5,"South":57,"East":32,"North":72,"Deposits":["hematite","magnetite","limonite"],"Factor":1.5},
+  {"Name":"Żelazo Europy środkowej","West":5,"South":46,"East":25,"North":53,"Deposits":["hematite","magnetite","limonite"],"Factor":1.1},
+  {"Name":"Żelazo Iberii","West":-10,"South":37,"East":2,"North":44,"Deposits":["hematite","magnetite","limonite"],"Factor":1.2},
+  {"Name":"Żelazo Ukrainy","West":28,"South":46,"East":40,"North":53,"Deposits":["hematite","magnetite","limonite"],"Factor":1.4},
+  {"Name":"Miedź południowo-zachodniej Polski","West":15,"South":50,"East":18,"North":52.5,"Deposits":["nativecopper","malachite"],"Factor":1.6},
+  {"Name":"Miedź Iberii","West":-10,"South":36,"East":-4,"North":40.5,"Deposits":["nativecopper","malachite"],"Factor":1.5},
+  {"Name":"Miedź Bałkanów","West":17,"South":40,"East":29,"North":47,"Deposits":["nativecopper","malachite"],"Factor":1.3},
+  {"Name":"Miedź północy","West":8,"South":58,"East":32,"North":71,"Deposits":["nativecopper","malachite"],"Factor":1.2},
+  {"Name":"Węgiel Brytanii","West":-7,"South":50,"East":2,"North":57,"Deposits":["bituminouscoal","anthracite","lignite"],"Factor":1.3},
+  {"Name":"Węgiel Niemiec Polski Czech","West":6,"South":48,"East":25,"North":54,"Deposits":["bituminouscoal","anthracite","lignite"],"Factor":1.5},
+  {"Name":"Węgiel Iberii","West":-10,"South":40,"East":1,"North":44,"Deposits":["bituminouscoal","anthracite","lignite"],"Factor":1.1},
+  {"Name":"Węgiel wschodu","West":31,"South":46,"East":44,"North":52,"Deposits":["bituminouscoal","anthracite","lignite"],"Factor":1.4},
+  {"Name":"Cyna Kornwalii","West":-6,"South":49.5,"East":-3,"North":52,"Deposits":["cassiterite"],"Factor":1.8,"Rock":"granite"},
+  {"Name":"Cyna Rudaw","West":12,"South":49.5,"East":15,"North":51.5,"Deposits":["cassiterite"],"Factor":1.6,"Rock":"granite"},
+  {"Name":"Cyna Iberii","West":-9,"South":39,"East":-4,"North":43.5,"Deposits":["cassiterite"],"Factor":1.3},
+  {"Name":"Ołów i cynk Europy środkowej","West":5,"South":44,"East":25,"North":52,"Deposits":["galena","sphalerite"],"Factor":1.4},
+  {"Name":"Ołów i cynk Iberii","West":-10,"South":36,"East":2,"North":44,"Deposits":["galena","sphalerite"],"Factor":1.3},
+  {"Name":"Ołów i cynk Bałkanów","West":17,"South":38,"East":29,"North":47,"Deposits":["galena","sphalerite"],"Factor":1.3},
+  {"Name":"Złoto i srebro Skandynawii","West":8,"South":58,"East":32,"North":71,"Deposits":["gold","silver"],"Factor":1.2},
+  {"Name":"Złoto i srebro Europy środkowej","West":5,"South":44,"East":25,"North":52,"Deposits":["gold","silver"],"Factor":1.1},
+  {"Name":"Złoto i srebro Iberii","West":-10,"South":36,"East":2,"North":44,"Deposits":["gold","silver"],"Factor":1.1}
+]

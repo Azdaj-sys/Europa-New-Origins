@@ -1,0 +1,42 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <NoWarn>$(NoWarn);MSB3277</NoWarn>
+    <OutputPath>bin\$(Configuration)\Mods\europegen</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="VSSurvivalMod"><HintPath>$(VINTAGE_STORY)\Mods\VSSurvivalMod.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="VSEssentials"><HintPath>$(VINTAGE_STORY)\Mods\VSEssentials.dll</HintPath><Private>false</Private></Reference>
+    <!-- ustaw zmienną środowiskową VINTAGE_STORY na folder z grą -->
+    <Reference Include="VintagestoryAPI">
+      <HintPath>$(VINTAGE_STORY)\VintagestoryAPI.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>$(VINTAGE_STORY)\Lib\Newtonsoft.Json.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="VintagestoryLib">
+      <HintPath>$(VINTAGE_STORY)\VintagestoryLib.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="europe.bin" LogicalName="EuropeGen.europe.bin" />
+    <EmbeddedResource Include="oasisdistance.bin" LogicalName="EuropeGen.oasisdistance.bin" />
+    <EmbeddedResource Include="places.json" LogicalName="EuropeGen.places.json" />
+    <EmbeddedResource Include="riverflow.bin" LogicalName="EuropeGen.riverflow.bin" />
+    <EmbeddedResource Include="resource-zones.json" LogicalName="EuropeGen.resource-zones.json" />
+    <EmbeddedResource Include="biomes.json" LogicalName="EuropeGen.biomes.json" />
+    <EmbeddedResource Include="uplift.bin" LogicalName="EuropeGen.uplift.bin" />
+    <EmbeddedResource Include="riversurface.bin" LogicalName="EuropeGen.riversurface.bin" />
+    <EmbeddedResource Include="bankmask.bin" LogicalName="EuropeGen.bankmask.bin" />
+    <EmbeddedResource Include="massif.bin" LogicalName="EuropeGen.massif.bin" />
+    <EmbeddedResource Include="flowingmask.bin" LogicalName="EuropeGen.flowingmask.bin" />
+    <None Include="modinfo.json" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>

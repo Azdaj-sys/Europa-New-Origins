@@ -1,0 +1,27 @@
+{
+  "version": "0.1.24",
+  "author": "Azdaj",
+  "publishedZipSHA256": "34ee31d30f1aa7c23ce3577ef0b5823184f8f943a3528d44a1210684b0caea96",
+  "publishedDllSHA256": "b01eb4ad7722a2d3c1cf9267afafa1591687c05c9fdab1d2a57ed7af67fdc585",
+  "files": {
+    "assets/europegen/blocktypes/mountainsnow.json": "e558060190efcb8b47dbe56157141ee94a0abe82ac28ab7f0a4336dc5b9b6d2a",
+    "assets/europegen/lang/en.json": "bb532cbb5e8ab53364fcc2106792bb7fd7d8615cf77d2978a491c8a777e4fced",
+    "assets/europegen/lang/pl.json": "52c82ba8f7f25d6c7d8bd3101af54108cd0a96f8d99faa2fd0f5b65da31e84e9",
+    "NuGet.Config": "9508cae5f76364f56e80eb97cb16493977243cf38e5cca6284e3d74f83b20a2c",
+    "src/biomes.json": "774acb6d0b8e76d2a88838be879d38b3c40f3480d6811cae6df1276ac50d9927",
+    "src/EuropeGen.cs": "937b3a71e882c2d5f9d3c908b361ff05f30213f0f4774c52201dca8d83719db4",
+    "src/EuropeGen.csproj": "f41cc8197301a718782e5c772019f7f452dc280aeded313c5fad57c78b5ba135",
+    "src/modinfo.json": "b4d9fb12141b1b292f148fb5bb63bef4bd6f10debfee7ca98ee3f89e9f074574",
+    "src/places.json": "4a2b99162b167a418fd243c550de2700da4a81910f17d55ef0eecc03d66aaf9d",
+    "src/resource-zones.json": "312901ec54bf360699fee2c1a22883b9539d319b72d32cbd1c3e9b11f820db15",
+    "zbuduj.ps1": "e83356b02e4bfa7f4cf7c6fc992ee8ccae3ea753f632c6caf3e7171cb4a5746a",
+    "src/europe.bin": "bfc1a6941705bf814e8ae2cfb24396a89cf3a07ca33daddc0ce26cefd3a752ec",
+    "src/oasisdistance.bin": "8a43b696fcaa09b72e4f871f1dc4b7e773ff03f9068be463e4c3db76264abe15",
+    "src/riverflow.bin": "eb80df69156dd8a00148dc68616c3d8ac7121e35714abf265f36e9727dfbcf62",
+    "src/uplift.bin": "4b04c7eb380d4c2d0aa52106f93bb6b074bdfd3c658db8b36404fa6d7dd77cae",
+    "src/riversurface.bin": "600aca55e5f01edcdf0b17a766ce125f840f8265bb3c048e6ae7d347653238c1",
+    "src/bankmask.bin": "0fcda1fdc8002544af3e6fdc34706fb0dc91c777f2ae7d92bb58faa921f4f010",
+    "src/massif.bin": "46c00c9c2b41b08e7c165bb2bee36c1db9d5b0cbdbf2c8079bdb1365c4a05275",
+    "src/flowingmask.bin": "1614bc96d6b215338f63da9fae3442cc71ff1cc511639408c9498d3b5283c0f4"
+  }
+}

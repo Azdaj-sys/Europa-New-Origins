@@ -1,0 +1,15 @@
+{
+  "type": "code",
+  "modid": "europegen",
+  "name": "Europa: New Origins (ALPHA)",
+  "authors": [
+    "Azdaj"
+  ],
+  "description": "Generates a map of Europe with regional climates, vegetation, mineral deposits, and story locations. Alpha 0.1.24. This mod is in active development, with further expansion planned.",
+  "version": "0.1.24",
+  "side": "Universal",
+  "dependencies": {
+    "game": "1.22.7",
+    "survival": ""
+  }
+}
